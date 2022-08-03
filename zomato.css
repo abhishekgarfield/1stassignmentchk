@@ -1,0 +1,479 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Okra,Helvetica,sans-serif;
+}
+
+
+
+/* explore */
+#explore
+{ 
+    width: 100%;
+    margin: auto;
+    background: rgb(252, 252, 252);
+    padding: 2rem 0rem;
+    
+}
+#exp_cont1
+{
+    width: 90%;
+    margin: auto;
+    max-width: 1024px;
+   
+}
+#explore h1
+{
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+#exp_option ,#exp_option2 ,#exp_option3
+{
+    padding: 1.5%;
+    width:96%;
+    background: rgb(255, 255, 255);
+    border:  1px solid rgb(232, 232, 232);
+    border-radius:1rem;
+    margin-top :1rem;
+}
+#exp_option h2 , #exp_option2 h2 ,#exp_option3 h2
+{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0rem;
+    letter-spacing: 2px;
+
+}
+#option_1 ,#option_2 ,#option_3
+{
+    display: none;
+}
+/* footer */
+
+footer
+{
+    width: 90%;
+    max-width: 1024px;
+    margin: auto;
+}
+footer #logo
+{
+    width: 100%;
+    margin-top: 2rem;
+}
+#foot_option
+{
+    float: right;
+    width: 21%;
+}
+footer select
+{
+    
+    margin: 0rem -13px;
+    width: 5rem;
+    padding: 0px;
+    height: 44px;
+    font-size: 1rem;
+}
+.foot_cont
+{
+    width: 20%;
+    float: left;
+}
+.foot_cont >ul
+{
+    list-style-type: none;
+    padding: 0px;
+}
+.foot_cont ul li b
+{
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+.foot_cont ul li
+{
+    padding-top:14px ;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color:rgb(152, 148, 148);
+}
+footer>p
+{
+    font-size: 12px;
+    margin-top: 0rem;
+    color: rgb(79, 79, 79);
+    line-height: 1.7rem;
+ 
+}
+footer .fa
+{
+    color: white;
+    background-color: black;
+    padding: 7px;
+    border-radius: 50%;
+    text-align: center;
+}
+.foot_cont ul li i
+{
+    font-size: 0.8rem;
+    width: 0.8rem;
+    text-align: center;
+    height: 0.8rem;
+}
+.foot_cont ul li img
+{
+    width: 88%;
+
+}
+#foot_option_select1
+{
+    width: 50%;
+    float: left;
+}
+#foot_option_select2
+{
+    width: 50%;
+    float: right;
+}
+/* phone and tab */
+
+
+
+    /* find page */
+
+    #find_head
+    {
+        background-color: white;
+    }
+    #find_head_cont
+    {
+        max-width: 1024px;
+        margin: 1rem auto 0rem auto;
+        width: 90%;
+        
+    }
+    #find_head_cont1
+    {
+        height: 46px;
+        overflow: hidden;
+        margin: 1.5rem auto;
+        
+    }
+    #find_head_cont1_1 , #find_head_cont1_2,
+    #find_head_cont1_3
+    {
+        
+        float: left;
+    }
+    #find_head_cont1_1 a >img
+    {
+            height: 28px;
+            display: block;
+            padding: 7px 0px;
+            width: 68%;
+    }
+    #find_head_cont1_1
+    {
+        width: 20%;
+    }
+    #find_head_cont1_2 
+    {
+        width: 59%;
+        border-radius: 0.8rem;
+        overflow: hidden;
+        height: 44px;
+        box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+        border: 1px solid rgb(232, 232, 232);
+    }
+    #find_head_cont1_2  select
+    {
+        height: 44px;
+        width: 30%;
+        margin: 0rem;
+        padding: 0rem;
+        font-size: 1rem;
+        border: none;
+    }
+    #find_head_cont1_2  input[type="text"]
+    {
+        
+        width: 68%;
+        height: 100%;
+        font-size: 1rem;
+        margin: 0rem;
+        border: none;
+        padding: 0rem;
+    }
+    #find_head_cont1_3
+    {
+        width: 20%;
+    }
+    #find_head_cont1_3 a
+    {
+        width: fit-content;
+        display: block;
+        float: left;
+        font-size: 18px;
+        padding: 11px;
+        color: rgb(105, 105, 105);
+        text-decoration: none;
+        font-weight: 200;
+    }
+
+    /* path display */
+    #find_head_cont2
+    {
+        width: 100%;
+        height: 35px;
+        margin: 1rem auto;
+        color:rgba(142, 139, 139, 0.684);
+    }
+    /* find options */
+    #find_head_cont3
+    {
+        height: 5.5rem;
+        margin: 1rem auto 0rem auto;
+        border-bottom: 1px solid rgba(142, 139, 139, 0.684);
+    }
+    #filters
+    {
+        background-color: white;
+        position: sticky;
+        top: 0px;
+        border-bottom: 1px solid lightgrey;
+    }
+   .find_options img
+   {
+        display: block;
+        width: 2rem;
+        padding: 1rem;
+    
+   }
+   .find_options_img
+   {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 4rem;
+        height:4rem;
+        float:left;
+        background: rgb(252, 238, 192);
+   }
+   .find_options a span
+    {
+        display: block;
+        padding: 1.2rem;
+        width: fit-content;
+        float: left;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+   #nightlife, #dining
+   {
+         background-color:rgba(132, 129, 129, 0.101);
+   }
+   #find_head_cont3_1 ,#find_head_cont3_2,#find_head_cont3_3
+   {
+        display: inline-block;
+        height: 100%;
+        margin: 0rem 0.9rem 0rem 0rem ;
+   } 
+   #find_head_cont3_1 
+   {
+        border-bottom: 2px solid red;
+   }
+    
+   /* filter */
+   #find_head_cont4
+   {
+        padding: 2rem 0rem;
+        overflow: hidden;
+        position: sticky;
+        top: 0px;
+        max-width: 1024px;
+        width: 90%;
+        margin: auto;
+   }
+
+   .fiter_buttons
+   {
+        width: fit-content;
+        float: left;
+        margin-right: 1rem;
+        height: 2rem;
+        border-radius: 6px;
+        border: 1px solid rgba(142, 139, 139, 0.684);
+   }
+   .fiter_buttons span
+   {
+        padding: 6px 11px;
+        display: block;
+   }
+   .fiter_buttons span i
+   {
+        margin-right: 6px;
+   }
+/* find_inspiration" */
+
+#find_inspiration
+{
+    background-color: rgba(243, 243, 243, 0.653);
+}
+#inspi_cont1
+{
+    max-width: 1024px;
+    width: 90%;
+    margin: auto;
+}
+#inspi_head >h1
+{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0rem;
+    padding-top: 16px;
+}
+
+
+
+/* ------ food_items_display ------ */
+
+
+#food_loading_area
+{
+    width:100%;
+    
+}
+.food_loading_area_2
+{
+    width: 90%;
+    max-width: 1024px;
+    overflow: hidden;
+    margin: auto;
+    padding:1rem;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.food_item_card
+{
+    flex: 0 0 32%;
+    background-color: white;
+    overflow: hidden;
+    margin: 1rem 0rem;
+    border-radius: 10px;
+    transition: 0.3s all;
+}
+ .food_item_info ,.food_stats
+ {
+    padding: 10px;
+ }
+ .food_img {
+    margin: 10px;
+    background-size: 131% 102%;
+    background-position: center;
+    height: 14rem;
+    display: block;
+    border-radius: 10px;
+    background-image: url("/images/find/dal.avif");
+ }
+ .food_img img
+ {
+    width: 100%;
+    height: 15rem;
+    display: block;
+    border-radius: 10px;
+ }
+ .food_name ,.food_cousine
+ {
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    flex: 70% 30%;
+   
+    
+https://github.com/Edureka-Content/assignment-1-abhishekgarfield
+ }
+ .food_name p
+ {
+    font-size: 18px;
+    text-transform:capitalize;
+ }
+ .food_name p, .food_cousine p
+ {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0px;
+    
+ }
+.food_price p{
+    margin:0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+ }
+ .food_rating,.food_price
+ {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: right;
+    
+ }
+ .food_item_info_cont2 ,.food_item_info_cont1{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+   
+ }
+ .food_item_info_cont2 {
+    margin-top: 10px;
+ }
+ .food_rating p{
+    background-color: green;
+    color: white;
+    border-radius: 5px;padding: 3px;
+    font-size: small;
+    margin:0px;
+    white-space:nowrap;
+    width: 40px;
+    overflow: hidden;
+ }
+ .food_price p,.food_cousine p
+ {
+    color: rgb(141, 138, 138);
+    font-weight: 200;
+    font-size: 14px;
+ }
+ .food_stats p
+ {
+    margin: 6px 0px;
+    clear: both;
+    font-size: 11px;
+
+ }
+ .food_stats
+ {
+    margin: 6px ,0px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .food_stats > img
+ {
+    width: 50px;
+    height: 20px;
+    margin: 6px 0px;
+ }
+ .food_item_card:hover
+ {
+    box-shadow: 0px 0px 10px 6px #88888870;
+ }
+
+

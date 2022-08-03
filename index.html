@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>order food</title>
+        <link rel="icon" type="image/x-icon" href="/images/homepage/icon.png">
+        <link rel="stylesheet" type="text/css" href="/zomato.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="find_head">
+            <div id="find_head_cont">
+                <div id="find_head_cont1">
+                    <div id="find_head_cont1_1">
+                       <a href="/index.html">
+                         <img src="/images/homepage/foot_logo.jpg">
+                       </a>
+                    </div>
+                    <div id="find_head_cont1_2">
+                        <select>
+                            <option>Sujanpur</option>
+                            <option>Sujanpur</option>
+                            <option>Sujanpur</option>
+                        </select>
+                        <input type="text" placeholder="Search for restaurants ,cousines or a dish">
+                    </div>
+                    <div id="find_head_cont1_3">
+                        <a href="#">Login</a>
+                        <a href="#">Sign up</a>
+                    </div>
+                </div>
+                <div id="find_head_cont2">
+                    <span id="path">Home / india / chandigarh / Mohali </span>
+                </div>
+                <div id="find_head_cont3">
+                    <div id="find_head_cont3_1" class="find_options">
+                        <a href="#"><div class="find_options_img" id="food"><img src="/images/find/delivery.png"></div><span style="color: red;">Delivery</span></a>
+                    </div>
+                    <div id="find_head_cont3_2" class="find_options" id="dining">
+                        <a href="#"><div class="find_options_img" id="dining"><img src="/images/find/dining.png"></div><span style="color:rgb(105, 105, 105);">Dining</span></a>
+                    </div>
+                    <div id="find_head_cont3_3" class="find_options">
+                        <a href="#"><div class="find_options_img" id="nightlife"><img src="/images/find/nighylife.webp"></div><span style="color:rgb(105, 105, 105);">Night life</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="filters">
+            <div id="find_head_cont4">
+                <div class="fiter_buttons">
+                    <span><i class="fa fa-filter"></i>Filters</span>
+                </div>
+                <div class="fiter_buttons">
+                    <span><i class=""></i>Pure veg</span>
+                </div>
+                <div class="fiter_buttons">
+                    <span><i class="fa fa-motorcycle"></i>Delivery time</span>
+                </div>
+                <div class="fiter_buttons">
+                    <span><i class="fa fa-star"></i>Rating: 4.0+</span>
+                </div>
+                <div class="fiter_buttons">
+                    <span>Cousins<i style="margin-left:6px;" class="fa fa-chevron-down"></i></span>
+                </div>
+                <div class="fiter_buttons">
+                    <span>More filters<i style="margin-left:6px;" class="fa fa-chevron-down"></i></span>
+                </div>
+            </div>
+        </div>
+        <!--
+        <div id="find_inspiration">
+            <div id="inspi_cont1">
+                <div id="inspi_head">
+                    <h1>Inspiration for your first order</h1>
+                </div>
+                <div id="inspi_slide_cont">
+                    <div id="slide_img">
+                    </div>
+                    <div id="slide_image_info">
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+        <div id="food_loading_area">
+            <div class="food_loading_area_2">
+                <div class="food_item_card">
+                    <div class="food_img">
+                    </div>
+                    <div class="food_item_info">
+                        <div class="food_item_info_cont1">
+                            <div class="food_name">
+                               <p > Bhena da dhaba</p>
+                            </div>
+                            <div class="food_rating">
+                               <p>4.0 <i class="fa fa-star"></i></p>
+                            </div>
+                        </div>
+                        <div class="food_item_info_cont2">
+                            <div class="food_cousine">
+                                <p> North indian fast food</p>
+                            </div>
+                            <div class="food_price">
+                                <p>₹100 for one</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="background-color: lightgrey; border: 1px solid lightgray;">
+                    <div class="food_stats">
+                        <p><i class="fa fa-line-chart" style="color:white;background-color: rgb(135, 158, 235); border-radius: 50%;padding: 6px;"></i>
+                            23000 orders plced recently
+                        </p>
+                        <img src="/images/find/max.webp"/>
+                    </div>
+                </div>
+                <div class="food_item_card">
+                    <div class="food_img" style="background-image: url('/images/find/cake.avif');">
+                    </div>
+                    <div class="food_item_info">
+                        <div class="food_item_info_cont1">
+                            <div class="food_name">
+                               <p > rasoiya 24x7 unlimites</p>
+                            </div>
+                            <div class="food_rating">
+                               <p>5.0 <i class="fa fa-star"></i></p>
+                            </div>
+                        </div>
+                        <div class="food_item_info_cont2">
+                            <div class="food_cousine">
+                                <p> south indian fast food</p>
+                            </div>
+                            <div class="food_price">
+                                <p>₹200 for one</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="background-color: lightgrey; border: 1px solid lightgray;">
+                    <div class="food_stats">
+                        <p><i class="fa fa-line-chart" style="color:white;background-color: rgb(135, 158, 235); border-radius: 50%;padding: 6px;"></i>
+                            23000 orders plced recently
+                        </p>
+                        <img src="/images/find/max.webp"/>
+                    </div>
+                </div>
+                <div class="food_item_card">
+                    <div class="food_img" style="background-image: url('/images/find/ktanai.avif');">
+                    </div>
+                    <div class="food_item_info">
+                        <div class="food_item_info_cont1">
+                            <div class="food_name">
+                               <p > Haveli</p>
+                            </div>
+                            <div class="food_rating">
+                               <p>3.6 <i class="fa fa-star"></i></p>
+                            </div>
+                        </div>
+                        <div class="food_item_info_cont2">
+                            <div class="food_cousine">
+                                <p>punjabi indian fast food</p>
+                            </div>
+                            <div class="food_price">
+                                <p>₹500 for one</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="background-color: lightgrey; border: 1px solid lightgray;">
+                    <div class="food_stats">
+                        <p><i class="fa fa-line-chart" style="color:white;background-color: rgb(135, 158, 235); border-radius: 50%;padding: 6px;"></i>
+                            29000 orders plced recently
+                        </p>
+                        <img src="/images/find/max.webp"/>
+                    </div>
+                </div>
+                <div class="food_item_card">
+                    <div class="food_img" style="background-image: url('/images/find/kulche.avif');">
+                    </div>
+                    <div class="food_item_info">
+                        <div class="food_item_info_cont1">
+                            <div class="food_name">
+                               <p >vaishno da dhaba</p>
+                            </div>
+                            <div class="food_rating">
+                               <p>4.7 <i class="fa fa-star"></i></p>
+                            </div>
+                        </div>
+                        <div class="food_item_info_cont2">
+                            <div class="food_cousine">
+                                <p> pure veg fast food</p>
+                            </div>
+                            <div class="food_price">
+                                <p>₹150 for one</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="background-color: lightgrey; border: 1px solid lightgray;">
+                    <div class="food_stats">
+                        <p><i class="fa fa-line-chart" style="color:white;background-color: rgb(135, 158, 235); border-radius: 50%;padding: 6px;"></i>
+                            43000 orders plced recently
+                        </p>
+                        <img src="/images/find/max.webp"/>
+                    </div>
+                </div>
+                <div class="food_item_card">
+                    <div class="food_img" style="background-image: url('/images/find/parantha.avif');">
+                    </div>
+                    <div class="food_item_info">
+                        <div class="food_item_info_cont1">
+                            <div class="food_name">
+                               <p > punjabiyan da dhaba</p>
+                            </div>
+                            <div class="food_rating">
+                               <p>2.9 <i class="fa fa-star"></i></p>
+                            </div>
+                        </div>
+                        <div class="food_item_info_cont2">
+                            <div class="food_cousine">
+                                <p> indian fast food</p>
+                            </div>
+                            <div class="food_price">
+                                <p>₹160 for one</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="background-color: lightgrey; border: 1px solid lightgray;">
+                    <div class="food_stats">
+                        <p><i class="fa fa-line-chart" style="color:white;background-color: rgb(135, 158, 235); border-radius: 50%;padding: 6px;"></i>
+                            22000 orders plced recently
+                        </p>
+                        <img src="/images/find/max.webp"/>
+                    </div>
+                </div>
+                <div class="food_item_card">
+                    <div class="food_img" style="background-image: url('/images/find/special\ prantha.avif');">
+                    </div>
+                    <div class="food_item_info">
+                        <div class="food_item_info_cont1">
+                            <div class="food_name">
+                               <p >garfield and groups restaurant pvt ltd.</p>
+                            </div>
+                            <div class="food_rating">
+                               <p>2.9 <i class="fa fa-star"></i></p>
+                            </div>
+                        </div>
+                        <div class="food_item_info_cont2">
+                            <div class="food_cousine">
+                                <p> North indian fast food</p>
+                            </div>
+                            <div class="food_price">
+                                <p>₹560 for one</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="background-color: lightgrey; border: 1px solid lightgray;">
+                    <div class="food_stats">
+                        <p><i class="fa fa-line-chart" style="color:white;background-color: rgb(135, 158, 235); border-radius: 50%;padding: 6px;"></i>
+                            43000 orders plced recently
+                        </p>
+                        <img src="/images/find/max.webp"/>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="find_search_option">
+        </div>
+        <div id="explore">
+            <div id="exp_cont1">
+                <h1>Explore options near me</h1>
+                <div id="exp_option" onclick="myfunc()">
+                    <h2>Popular cuisines near me</h2>
+                    <div id="option_1">
+                        hi this is for tshshkjsdgakdgjakjsd
+                    </div>
+                </div>
+                <div id="exp_option2" onclick="myfunct()">
+                    <h2>Popular restaurant types near me</h2>
+                    <div id="option_2">
+                        hi this is for tshshkjsdgakdgjakjsd
+                    </div>
+                </div>
+                <div id="exp_option3" onclick="myfunctio()">
+                    <h2>Cities We Deliver To</h2>
+                    <div id="option_3">
+                        hi this is for tshshkjsdgakdgjakjsd
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="logo">
+                <img src="/images/homepage/foot_logo.jpg">
+                <div id="foot_option">
+                    <select>
+                        <option>India</option>
+                        <option>India</option>
+                        <option>India</option>
+                        <option>India</option>
+                        <option>India</option>
+                    </select>
+                    <select>
+                        <option>English</option>
+                        <option>India</option>
+                        <option>India</option>
+                        <option>India</option>
+                        <option>India</option>
+                    </select>
+                </div>
+            </div>
+            <div class="foot_container">
+                <div class="foot_cont">
+                    <ul>
+                        <li><b>ABOUT ZOMATO</b></li>
+                        <li>Who we are</li>
+                        <li>Blog</li>
+                        <li>Work with us</li>
+                        <li>Invstor relatiosn</li>
+                        <li>Report fraud</li>
+                    </ul>
+                </div>
+                <div class="foot_cont">
+                    <ul>
+                        <li><b>ZOMAVERSE</b></li>
+                        <li>Zomato</li>
+                        <li>Feeding India</li>
+                        <li>Hyperpure</li>
+                        <li>Zomaland</li>
+                    </ul>
+                </div>
+                <div class="foot_cont">
+                    <ul>
+                        <li><b>FOR RESTAURANTS</b></li>
+                        <li>Partner with us</li>
+                        <li>Apps for you</li>
+                    </ul>
+                    <ul>
+                        <li><b> FOR ENTERPRISES</b></li>
+                        <li>Zomato for work</li>
+                    </ul>
+                </div>
+                <div class="foot_cont">
+                    <ul>
+                        <li><b>LEARN MORE</b></li>
+                        <li>Privacy</li>
+                        <li>Security</li>
+                        <li>Terms</li>
+                        <li>Sitemap</li>
+                    </ul>
+                </div>
+                <div class="foot_cont">
+                    <ul>
+                        <li><b>SOCIAL LINKS</b></li>
+                        <li><i class="fa fa-linkedin"></i>
+                            <i class="fa fa-instagram"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-youtube"></i>
+                            <i class="fa fa-facebook"></i>
+                        </li>
+                        <li><img src="/images/homepage/apple.png" alt="apple"></li>
+                        <li><img src="/images/homepage/google_play.png" alt="apple"></li>
+                    </ul>
+                </div>
+            </div>
+            <p>
+                There really is something for everyone on Tinder. Want to get into a relationship? You got it.
+                Trying to find some new friends? Say no more. New kid on campus and looking to make the most of your
+                college experience? Tinder U’s got you covered. Tinder isn’t your average dating site — it’s the
+                most diverse dating app, where adults of all backgrounds and experiences are invited to make
+                connections, memories, and everything in between.
+            </p>
+            <p>
+                There really is something for everyone on Tinder. Want to get into a relationship? You got it.
+                Trying to find some new friends? Say no more. New kid on campus and looking to make the most of your
+                college experience? Tinder U’s got you covered. Tinder isn’t your average dating site — it’s the
+                most diverse dating app, where adults of all backgrounds and experiences are invited to make
+                connections, memories, and everything in between.
+            </p>
+            <hr style="clear:both;"></hr>
+            <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2022 © Zomato™ Ltd. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
+
