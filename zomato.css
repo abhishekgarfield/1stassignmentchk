@@ -378,7 +378,7 @@ footer .fa
     height: 14rem;
     display: block;
     border-radius: 10px;
-    background-image: url("/images/find/dal.avif");
+    background-image: url("images/find/dal.avif");
  }
  .food_img img
  {
