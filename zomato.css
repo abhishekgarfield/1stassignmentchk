@@ -936,6 +936,10 @@ footer .fa
     border-bottom: 1px solid lightgray;
     
 }
+.active{
+    background-color: #d3d3d3e4;
+
+}
 .sho{
     display: block;
 
@@ -957,10 +961,9 @@ footer .fa
     width: 30%;
     float: left;
     height: 100%;
-    align-self: center;
+align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
     height: 100%;
     color: rgba(0, 0, 0, 0.82);
     background-color: rgba(211, 211, 211, 0.526);
@@ -974,7 +977,10 @@ footer .fa
     height: 100%;
 }
 .label{
+    height: 25%;
     width: 100%;
+    align-items: center;
+    padding-top: 30px;
     overflow: hidden;
 }
 .label_output form
@@ -1094,6 +1100,10 @@ margin-left: 1rem;}
     padding: 10px;
     margin: 20px;
 
+  }
+  .label:hover
+  {
+    background-color: rgba(211, 211, 211, 0.45);
   }
 
 

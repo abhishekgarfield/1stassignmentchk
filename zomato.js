@@ -65,9 +65,15 @@
                 label_output[i].style.display ="none";
              }
              document.getElementById(labelname).style.display="block";
-            
+             var label=document.getElementsByClassName("label");
+             for (i=0;i<label.length;i++)
+             {
+                    label[i].className=label[i].className.replace(" active","");
+             }
+             e.currentTarget.className += " active";
             }
             document.getElementById("default").click();
+
             var slider = document.getElementById("myRange");
 var output = document.getElementById("demo");
 output.innerHTML = slider.value;
