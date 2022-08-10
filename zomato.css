@@ -831,6 +831,7 @@ footer .fa
     float: left;
     height: 100%;
 align-items: center;
+overflow: hidden;
     display: flex;
     flex-direction: column;
     height: 100%;
